@@ -1,0 +1,416 @@
+.header {
+  background-color: rgb(138, 154, 91);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header-wraper {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 2px;
+}
+.ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navigation a {
+  font-size: 25px;
+  margin: 50px 2px 50px 2px;
+  color: black;
+  padding-left: 90px;
+}
+.navigation {
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.navigation a:hover {
+  color: white;
+  border-bottom: 4px solid rgb(138, 154, 91);
+  padding-bottom: 2px;
+}
+.burger {
+  position: relative;
+  display: none;
+}
+.fa-bars,
+.fa-times {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.active {
+  background-color: aqua;
+}
+.notext {
+  font-size: 30px;
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 30px;
+  vertical-align: top;
+}
+navigation #mylinks {
+  display: none;
+}
+.logo img {
+  width: 50px;
+  margin-left: 50px;
+}
+.jungle-text {
+  color: white;
+  font-size: 70px;
+  font-family: cursive;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.navigation {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.btn {
+  color: black;
+  padding: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(138, 154, 91);
+}
+.button {
+  font-size: 16px;
+  font-family: cursive;
+}
+.country {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.btn {
+  border-radius: 8px;
+  font-size: 25px;
+  text-align: center;
+  margin: 4px 15px;
+  width: 180px;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+}
+.australia {
+  background-image: url(../images/sydney-new-south-wales-australia-600nw-2490788099.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 2px;
+}
+
+.china {
+  background-image: url(../images/china.webp);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.egypt {
+  background-image: url(../images/400.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spain {
+  background-image: url(../images/HandLuggageOnly-9-4.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+.Seetheworld {
+  font-size: 28px;
+  color: #4b5320;
+}
+.mapaustralia {
+  width: 100px;
+}
+.georgia {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.Seethegeorgia {
+  font-size: 28px;
+  color: #4b5320;
+}
+.guria {
+  background-image: url(../images/6630e38768a57ab78025f607e420f3f7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: text-bottom;
+}
+
+.imereti {
+  background-image: url(../images/imereti-bagratis-tadzari-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.samegrelo {
+  background-image: url(../images/IMG_5197.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kakheti {
+  background-image: url(../images/cf227c61bccc5df6417baa44a04b55fa.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+.sectionbackground {
+  background-image: url(../images/12345678.jpg);
+  background-size: cover;
+  height: 450px;
+  background-repeat: no-repeat;
+  margin: 8px 18px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.aboutbody {
+  background-color: rgb(42, 170, 138);
+}
+.aboutbody p {
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.aboutbody h1 {
+  font-size: 30px;
+  color: #454b1b;
+  text-align: center;
+}
+.accordion {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wraper-body {
+  background-color: #454b1b;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.accordion-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fontColor {
+  color: rgb(244, 244, 244);
+}
+.fontSize {
+  font-size: 20px;
+}
+.accordion-title {
+  position: relative;
+  padding: 30px 0;
+  cursor: pointer;
+}
+.accordion-title::before {
+  content: " +";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  font-size: 25px;
+}
+
+.accordion h2 {
+  font-size: 27px;
+  padding-top: 50px;
+  background-color: #454b1b;
+}
+.last {
+  padding-bottom: 80px;
+}
+.accordion-description {
+  width: 100%;
+  font-size: 16px;
+  height: 0;
+  overflow: hidden;
+}
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #a8a4a4;
+}
+.accordion-container.active .accordion-description {
+  height: 80px;
+  padding: 10px;
+  background-color: #454b1b;
+}
+.accordion-container.active .accordion-title {
+  content: "-";
+  font-size: 25px;
+  background-color: #454b1b;
+}
+#slider {
+  width: 95%;
+  height: 85vh;
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  margin-top: 75px;
+  background-color: #a8a4a4;
+}
+.arrow {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  background-color: #cccccc;
+  border-radius: 20%;
+  color: aquamarine;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  z-index: 2;
+}
+.arrow-left {
+  left: 235px;
+}
+.arrow-right {
+  right: 235px;
+}
+.arrow:hover {
+  border: none;
+  color: rgb(28, 30, 30);
+}
+
+/* java */
+.slider-title {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  /* font-family: ; */
+  /* font-size: ; */
+  letter-spacing: 0.15rem;
+  color: azure;
+  padding: 20px 70px;
+  text-align: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: rgb(20, 20, 20);
+}
+.dot.active {
+  background-color: rgb(251, 251, 251);
+}
+.dots {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+  cursor: pointer;
+}
+.Review {
+  background-color: #00a693;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 200x;
+  width: 200px;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 26px;
+  color: #454b1b;
+}
+.email {
+  font-size: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.email:hover {
+  font-size: 100px;
+  color: black;
+}
+.contact-section1 {
+  display: flex;
+  justify-content: center;
+  background-color: #00a693;
+  margin: 5px;
+}
+input {
+  color: black;
+  background-color: #cccccc;
+  font-size: 24px;
+}
+.footer {
+  background-color: #545a2c;
+  height: 300px;
+}
+.imagetext {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #1e2010;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer span {
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerlogo {
+  width: 250px;
+  height: 220px;
+}
+.fspan {
+  margin: 5px;
+}
+.spantext {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: green;
+}
+.contact-section2 {
+  background-color: rgb(138, 154, 91);
+}
+.adress {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.map {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: -110px;
+}
