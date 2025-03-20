@@ -328,7 +328,7 @@ navigation #mylinks {
   bottom: 5%;
   cursor: pointer;
 }
-.Review {
+.guides {
   background-color: #00a693;
 }
 .container ul {
@@ -356,7 +356,8 @@ navigation #mylinks {
   display: flex;
   justify-content: center;
   background-color: #00a693;
-  margin: 5px;
+  margin: 15px;
+  padding-top: 20px;
 }
 input {
   color: black;
@@ -397,20 +398,19 @@ input {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: green;
 }
-.contact-section2 {
-  background-color: rgb(138, 154, 91);
-}
 .adress {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
-  padding-top: 50px;
-  padding-left: 80px;
+  padding-top: 28px;
+  padding-left: 50px;
 }
 .map {
   display: flex;
   justify-content: flex-end;
-  margin-right: 100px;
-  margin-top: -110px;
+  align-items: flex-start;
+  margin-right: 60px;
+  margin-top: -100px;
 }
+
